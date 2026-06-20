@@ -15,7 +15,7 @@ export default function Benchmark({ originalQuery, optimizedQuery }) {
     setError(null)
     setResult(null)
     try {
-      const res = await axios.post('http://127.0.0.1:8000/api/benchmark', {
+      const res = await axios.post('https://optquery.jumpingcrab.com/api/benchmark', {
         original_query: originalQuery,
         optimized_query: optimizedQuery
       })
