@@ -3,6 +3,18 @@
 > Intelligent SQL performance analysis powered by Groq AI (LLaMA 3.1), deployed on AWS with Docker, Nginx, RDS, S3, and CloudFront.
 
 **Live Demo:** https://d33hks1hf8pk1y.cloudfront.net
+## Access Note
+
+This project is hosted using Amazon S3 Static Website Hosting for demonstration purposes.
+
+Some browser security extensions (such as Netcraft, Malwarebytes Browser Guard, or similar website reputation tools) may incorrectly flag newly created S3 website endpoints or free domains.
+
+If the website does not load:
+1. Try opening it in an Incognito/Private window.
+2. Temporarily disable website reputation/security extensions.
+3. Use an alternative browser.
+
+The application itself does not contain any mining scripts, malware, or unsafe content.
 
 ---
 
